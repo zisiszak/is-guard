@@ -1,0 +1,47 @@
+{
+	"compilerOptions": {
+		/* Base */
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"moduleDetection": "auto",
+		"skipDefaultLibCheck": true,
+		"skipLibCheck": true,
+
+		/* Resolution */
+		"resolveJsonModule": true,
+		"moduleResolution": "Bundler",
+		"target": "ESNext",
+		"allowJs": true,
+
+		/* Paths */
+		"rootDir": "src",
+		"baseUrl": ".",
+		"composite": false,
+		"outDir": "dist",
+
+		/* Generation */
+		"module": "ESNext",
+		"noEmit": false,
+		"emitDeclarationOnly": false,
+		"declaration": true,
+		"sourceMap": true,
+		"declarationMap": true,
+
+		/* Linting */
+		"strict": true,
+		"checkJs": true,
+		"strictFunctionTypes": true,
+		"allowSyntheticDefaultImports": true,
+		"strictBindCallApply": true,
+		"noUnusedLocals": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"noUnusedParameters": true,
+		"noUncheckedIndexedAccess": true,
+		"allowUnusedLabels": false,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"]
+}
