@@ -1,4 +1,4 @@
-import type { Guard } from './shared';
+import type { Guard } from './shared.js';
 
 export const createInArrayGuard =
 	<T>(array: readonly T[]): Guard<T> =>

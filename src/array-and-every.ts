@@ -1,4 +1,4 @@
-import type { Guard } from './shared';
+import type { Guard } from './shared.js';
 
 /**
  * Returns a typeguard that can be reused.

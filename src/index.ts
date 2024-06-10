@@ -1,6 +1,6 @@
-import { createArrayAndEveryGuard, isArrayAndEvery } from './array-and-every';
-import { createObjectWithPropsGuard, isObjectWithProps } from './object-with-props';
-import { createInArrayGuard, createInSetGuard, isInArray, isInSet } from './primitive-subsets';
+import { createArrayAndEveryGuard, isArrayAndEvery } from './array-and-every.js';
+import { createObjectWithPropsGuard, isObjectWithProps } from './object-with-props.js';
+import { createInArrayGuard, createInSetGuard, isInArray, isInSet } from './primitive-subsets.js';
 import {
 	isArray,
 	isBoolean,

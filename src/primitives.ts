@@ -1,4 +1,4 @@
-import { type ExclusionGuard, type Guard } from './shared';
+import { type ExclusionGuard, type Guard } from './shared.js';
 
 export const isString: Guard<string> = (value: unknown): value is string =>
 	typeof value === 'string';

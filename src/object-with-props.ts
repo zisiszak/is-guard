@@ -1,4 +1,4 @@
-import { type Guard } from './shared';
+import { type Guard } from './shared.js';
 
 export type ObjectWithPropsConfig<O> = {
 	required?: {

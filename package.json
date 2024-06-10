@@ -1,7 +1,7 @@
 {
 	"name": "is-guard",
 	"description": "A simple, functional typeguard library.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "ISC",
 	"author": {
 		"name": "Zisis Zak",

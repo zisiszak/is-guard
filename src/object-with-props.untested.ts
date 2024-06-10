@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import type { Guard } from './shared';
+import type { Guard } from './shared.js';
 
 export type ObjectWithPropsConfig<
 	ObjectType,
